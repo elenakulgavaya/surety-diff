@@ -4,8 +4,8 @@ import pytest
 
 from surety.sdk.fakeable import Fakeable, fake_string_attr
 
-from surety_diff.compare import compare
-from surety_diff.rules import (
+from surety.diff.compare import compare
+from surety.diff.rules import (
     has_some_value,
     has_new_value,
     is_valid_uuid,

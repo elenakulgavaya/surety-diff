@@ -16,7 +16,7 @@ authors = [
 dynamic = ["version"]
 
 dependencies = [
-    "surety>=0.0.3,<1.0"
+    "surety>=0.0.4,<1.0"
 ]
 
 keywords = [
@@ -34,8 +34,8 @@ classifiers = [
 ]
 
 [tool.setuptools.packages.find]
-where = ["src"]
-
+where = ["."]
+include = ["surety*"]
 
 [tool.setuptools_scm]
 version_scheme = "guess-next-dev"
