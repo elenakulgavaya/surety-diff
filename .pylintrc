@@ -16,7 +16,9 @@ suggestion-mode=yes
 [MESSAGES CONTROL]
 disable=missing-function-docstring,
         missing-class-docstring,
-        missing-module-docstring
+        missing-module-docstring,
+        too-many-branches,
+        too-many-positional-arguments
 
 [TYPECHECK]
 ignored-modules=surety
