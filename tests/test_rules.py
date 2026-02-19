@@ -16,9 +16,7 @@ from surety.diff.rules import (
     sorted_lists_equal,
     dates_equal_with_delta_3s,
     equal_with_accuracy_4,
-    get_fmt_date_with_delta,
     formatted_dates_equal_with_delta,
-    precise_dates_equal_with_delta,
     check_is_valid_uuid,
 )
 
