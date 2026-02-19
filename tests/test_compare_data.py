@@ -21,7 +21,8 @@ def test_compare_with_rules():
 def test_compare_forbid_unapplied_rules_false():
     compare(
         expected={'test': 1},
-        actual={'test': 2},
+        actual={'test': 1},
+        rules={'no_key': has_some_value},
         forbid_unapplied_rules=False
     )
 
