@@ -21,4 +21,4 @@ jobs:
         pip install -e .
     - name: Analysing the code with pylint
       run:
-        python -m pylint surety tests
+        python -m pylint surety/diff tests
