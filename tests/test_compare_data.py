@@ -66,4 +66,3 @@ def test_compare_not_matching():
     )
     with pytest.raises(AssertionError, match=expected_exception):
         compare(expected={'test': 1}, actual={'test': 2})
-

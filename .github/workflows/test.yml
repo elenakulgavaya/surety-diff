@@ -34,7 +34,7 @@ jobs:
           pytest \
             --cache-clear \
             --junitxml=test-report.xml \
-            --cov=surety.diff \
+            --cov=surety/diff \
             --cov-report=term-missing:skip-covered \
             --cov-report=xml \
             > pytest-coverage.txt
